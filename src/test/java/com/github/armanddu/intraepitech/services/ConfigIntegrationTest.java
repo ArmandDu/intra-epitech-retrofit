@@ -15,7 +15,7 @@ import java.nio.file.Paths;
 
  */
 
-public class TestConfig {
+public class ConfigIntegrationTest {
 
     private static final String DEFAULT_URL = "https://intra.epitech.eu";
     public static final Path PATH = Paths.get("./resource/.intra.passwd");
@@ -24,7 +24,7 @@ public class TestConfig {
     private String token;
     private Retrofit retrofit;
 
-    public TestConfig() throws IOException {
+    public ConfigIntegrationTest() throws IOException {
         OkHttpClient client = new OkHttpClient.Builder()
                 .addInterceptor(new AcceptJson())
                 .build();

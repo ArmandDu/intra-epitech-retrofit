@@ -13,7 +13,7 @@ import java.io.IOException;
  * Created by armanddu on 04/08/16 for rest-epitech-client.
  *
  */
-public class EpitechAuthenticationServiceTest {
+public class EpitechAuthenticationServiceIntegrationTest {
 
     private String token;
     private String login;
@@ -22,7 +22,7 @@ public class EpitechAuthenticationServiceTest {
 
     @BeforeTest
     public void setup() throws IOException {
-        TestConfig config = new TestConfig();
+        ConfigIntegrationTest config = new ConfigIntegrationTest();
         token = config.getToken();
         login = config.getLogin();
         password = config.getPassword();

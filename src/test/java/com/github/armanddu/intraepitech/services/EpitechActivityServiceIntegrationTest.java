@@ -16,7 +16,7 @@ import java.util.List;
  * Created by armanddu on 06/08/16 for rest-epitech-client.
  *
  */
-public class EpitechActivityServiceTest {
+public class EpitechActivityServiceIntegrationTest {
 
     private String token;
     private EpitechActivityService service;
@@ -24,7 +24,7 @@ public class EpitechActivityServiceTest {
 
     @BeforeTest
     public void setup() throws IOException {
-        TestConfig config = new TestConfig();
+        ConfigIntegrationTest config = new ConfigIntegrationTest();
         token = config.getToken();
         service = config.getSercice(EpitechActivityService.class);
 
