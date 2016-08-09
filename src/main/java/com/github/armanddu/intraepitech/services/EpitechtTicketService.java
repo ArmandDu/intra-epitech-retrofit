@@ -14,11 +14,11 @@ import java.util.Map;
 public interface EpitechtTicketService {
     /**
      *
-     * @param filters:<br />
+     * @param filters:
      *               [<strong>status=</strong>new|feedback|acknowledged|resolved|closed] default is all
-     *               [<strong>type=</strong>none|teaching-bachelor|teaching-master|international|technical|suggestion|internship|teaching-webac] default is all<br />
-     *               [<strong>reported=</strong>login_x]<br />
-     *               [<strong>assigned=</strong>login_x] if searching for "not assigned tickets, then use assigned=''<br />
+     *               [<strong>type=</strong>none|teaching-bachelor|teaching-master|international|technical|suggestion|internship|teaching-webac] default is all
+     *               [<strong>reported=</strong>login_x]
+     *               [<strong>assigned=</strong>login_x] if searching for "not assigned tickets, then use assigned=''
      *               [<strong>monitored=</strong>login_x]
      * @param token:
      *             user's access token

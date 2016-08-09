@@ -1,9 +1,8 @@
-# rest-epitech-client
+# intra-epitech-retrofit
 
-[![Build Status](https://travis-ci.org/ArmandDu/rest-epitech-client.svg)](https://travis-ci.org/ArmandDu/rest-epitech-client)
-[![Coverage Status](https://coveralls.io/repos/ArmandDu/rest-epitech-client/badge.svg?branch=master)](https://coveralls.io/r/ArmandDu/rest-epitech-client?branch=master)
-[![Dependency Status](https://www.versioneye.com/user/projects/54bd0ffb879d51106e000343/badge.svg?style=flat)](https://www.versioneye.com/user/projects/54bd0ffb879d51106e000343)
-[ ![Download](https://api.bintray.com/packages/armanddu/maven/rest-epitech-client/images/download.svg) ](https://bintray.com/armanddu/maven/rest-epitech-client/_latestVersion)
+[![Build Status](https://travis-ci.org/ArmandDu/intra-epitech-retrofit.svg?branch=master)](https://travis-ci.org/ArmandDu/intra-epitech-retrofit)
+[![Coverage Status](https://coveralls.io/repos/github/ArmandDu/intra-epitech-retrofit/badge.svg?branch=master)](https://coveralls.io/github/ArmandDu/intra-epitech-retrofit?branch=master)
+[![Dependency Status](https://www.versioneye.com/user/projects/57a98d8cf27cc20050102ec4/badge.svg?style=flat-square)](https://www.versioneye.com/user/projects/57a98d8cf27cc20050102ec4)
 
 
 Rest client for Epitech's Intranet

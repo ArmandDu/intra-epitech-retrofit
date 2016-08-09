@@ -32,10 +32,10 @@ public interface EpitechService {
 
     /**
      *
-     * @param filters Map: <br />
-     *               [<strong>location=</strong>]<br />
-     *               [<strong>course=</strong>]<br />
-     *               [<strong>scolaryear=</strong>]<br />
+     * @param filters Map: 
+     *               [<strong>location=</strong>]
+     *               [<strong>course=</strong>]
+     *               [<strong>scolaryear=</strong>]
      * @param token String: access token
      * @return List of modules
      */
